@@ -2,7 +2,7 @@
     "version": "2",
     "templates": [
         {
-            "type": "1",
+            "type": 1,
             "title": "plexconnect",
             "description": "\n  This is a Dockerfile setup for PlexConnect - https://github.com/iBaa/PlexConnect.[br]This is a fork from needo PlexConnect docker.[br][br]\n  This run the latest PlexConnect from master branch and add support for PIL background by installing Python-imaging.[br]\n  [b][span style='color: #E80000;']Directions:[/span][/b][br]\n    Note: PlexConnect by default use ports 80 and 443, Unraid WebUI also use port 80. You need to either use the other ports for PlexConnect and use Reverse-Proxy -OR- change the Unraid WebUI port by editing go file on boot device.[br]\n    [b]/mnt/cache/appdata/plexconnect[/b] : this path is used to store the PlexConnect SSL Certificates.[br]\n    [b]/config[/b] : this path is used to store the Settings.cfg outside of the Docker Container for easy edit.[br]\n ",
             "image": "pducharme/plexconnect:latest",
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "type": "1",
+            "type": 1,
             "title": "unifi-video",
             "description": "Unifi Video Controller (NVR) is a NVR software from the company Ubiquiti Networks to use with their UniFi Video IP Cameras.  To use the latest BETA version, add a :beta in the Repository field in Advanced view.",
             "image": "pducharme/unifi-video-controller:latest",
