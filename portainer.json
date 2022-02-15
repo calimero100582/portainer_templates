@@ -6,11 +6,8 @@
             "title": "plexconnect",
             "description": "\n  This is a Dockerfile setup for PlexConnect - https://github.com/iBaa/PlexConnect.[br]This is a fork from needo PlexConnect docker.[br][br]\n  This run the latest PlexConnect from master branch and add support for PIL background by installing Python-imaging.[br]\n  [b][span style='color: #E80000;']Directions:[/span][/b][br]\n    Note: PlexConnect by default use ports 80 and 443, Unraid WebUI also use port 80. You need to either use the other ports for PlexConnect and use Reverse-Proxy -OR- change the Unraid WebUI port by editing go file on boot device.[br]\n    [b]/mnt/cache/appdata/plexconnect[/b] : this path is used to store the PlexConnect SSL Certificates.[br]\n    [b]/config[/b] : this path is used to store the Settings.cfg outside of the Docker Container for easy edit.[br]\n ",
             "image": "pducharme/plexconnect",
-            "administrator_only": true,
-            "name": "PlexConnect",
             "logo": "https://i.imgur.com/klXXMjw.png",
             "registry": "https://registry.hub.docker.com/r/pducharme/plexconnect/",
-            "env": [],
             "network": "host",
             "volumes": [
                 {
@@ -29,7 +26,6 @@
                 "53:53/tcp",
                 "443:443/tcp"
             ],
-            "labels": [],
             "restart_policy": "always",
             "note": "Credits to <a href='https://forums.unraid.net/topic/38582-plug-in-community-applications/'>Unraid Community Apps</a><br />\r\nWebUI: <a href='http://[IP]:[PORT:80]/'>http://[IP]:[PORT:80]/</a><br />\r\nSupport: <a href='http://lime-technology.com/forum/index.php?topic=37058'>http://lime-technology.com/forum/index.php?topic=37058</a><br />\r\nTemplateURL: <a href='https://raw.githubusercontent.com/pducharme/docker-containers/templates/pducharme-repo/PlexConnect.xml'>https://raw.githubusercontent.com/pducharme/docker-containers/templates/pducharme-repo/PlexConnect.xml</a><br />\r\n",
             "platform": "linux",
@@ -44,11 +40,8 @@
             "title": "unifi-video",
             "description": "Unifi Video Controller (NVR) is a NVR software from the company Ubiquiti Networks to use with their UniFi Video IP Cameras.  To use the latest BETA version, add a :beta in the Repository field in Advanced view.",
             "image": "pducharme/unifi-video-controller",
-            "administrator_only": true,
-            "name": "UniFi-Video",
             "logo": "https://i.imgur.com/dD9ub3n.png",
             "registry": "https://registry.hub.docker.com/r/pducharme/unifi-video-controller/",
-            "env": [],
             "network": "bridge",
             "volumes": [
                 {
@@ -74,7 +67,6 @@
                 "7446:7446/tcp",
                 "7447:7447/tcp"
             ],
-            "labels": [],
             "privileged": true,
             "restart_policy": "always",
             "note": "Credits to <a href='https://forums.unraid.net/topic/38582-plug-in-community-applications/'>Unraid Community Apps</a><br />\r\nWebUI: <a href='http://[IP]:[PORT:7080]/manage'>http://[IP]:[PORT:7080]/manage</a><br />\r\nSupport: <a href='http://lime-technology.com/forum/index.php?topic=37058'>http://lime-technology.com/forum/index.php?topic=37058</a><br />\r\nTemplateURL: <a href='https://raw.githubusercontent.com/pducharme/docker-containers/templates/pducharme-repo/UniFi-Video-Controller.xml'>https://raw.githubusercontent.com/pducharme/docker-containers/templates/pducharme-repo/UniFi-Video-Controller.xml</a><br />\r\n",
