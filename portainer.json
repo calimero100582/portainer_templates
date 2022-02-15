@@ -31,7 +31,7 @@
             ],
             "labels": [],
             "restart_policy": "always",
-            "note": "Credits to <a href=\"https://forums.unraid.net/topic/38582-plug-in-community-applications/\">Unraid Community Apps</a>WebUI: <a href='http://[IP]:[PORT:80]/'>http://[IP]:[PORT:80]/</a>Support: <a href='http://lime-technology.com/forum/index.php?topic=37058'>http://lime-technology.com/forum/index.php?topic=37058</a>TemplateURL: <a href='https://raw.githubusercontent.com/pducharme/docker-containers/templates/pducharme-repo/PlexConnect.xml'>https://raw.githubusercontent.com/pducharme/docker-containers/templates/pducharme-repo/PlexConnect.xml</a>",
+            "note": "Credits to <a href='https://forums.unraid.net/topic/38582-plug-in-community-applications/'>Unraid Community Apps</a><br />\r\nWebUI: <a href='http://[IP]:[PORT:80]/'>http://[IP]:[PORT:80]/</a><br />\r\nSupport: <a href='http://lime-technology.com/forum/index.php?topic=37058'>http://lime-technology.com/forum/index.php?topic=37058</a><br />\r\nTemplateURL: <a href='https://raw.githubusercontent.com/pducharme/docker-containers/templates/pducharme-repo/PlexConnect.xml'>https://raw.githubusercontent.com/pducharme/docker-containers/templates/pducharme-repo/PlexConnect.xml</a><br />\r\n",
             "platform": "linux",
             "categories": [
                 "Network-Web",
@@ -77,7 +77,7 @@
             "labels": [],
             "privileged": true,
             "restart_policy": "always",
-            "note": "Credits to <a href=\"https://forums.unraid.net/topic/38582-plug-in-community-applications/\">Unraid Community Apps</a>WebUI: <a href='http://[IP]:[PORT:7080]/manage'>http://[IP]:[PORT:7080]/manage</a>Support: <a href='http://lime-technology.com/forum/index.php?topic=37058'>http://lime-technology.com/forum/index.php?topic=37058</a>TemplateURL: <a href='https://raw.githubusercontent.com/pducharme/docker-containers/templates/pducharme-repo/UniFi-Video-Controller.xml'>https://raw.githubusercontent.com/pducharme/docker-containers/templates/pducharme-repo/UniFi-Video-Controller.xml</a>",
+            "note": "Credits to <a href='https://forums.unraid.net/topic/38582-plug-in-community-applications/'>Unraid Community Apps</a><br />\r\nWebUI: <a href='http://[IP]:[PORT:7080]/manage'>http://[IP]:[PORT:7080]/manage</a><br />\r\nSupport: <a href='http://lime-technology.com/forum/index.php?topic=37058'>http://lime-technology.com/forum/index.php?topic=37058</a><br />\r\nTemplateURL: <a href='https://raw.githubusercontent.com/pducharme/docker-containers/templates/pducharme-repo/UniFi-Video-Controller.xml'>https://raw.githubusercontent.com/pducharme/docker-containers/templates/pducharme-repo/UniFi-Video-Controller.xml</a><br />\r\n",
             "platform": "linux",
             "categories": [
                 "HomeAutomation",
